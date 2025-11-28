@@ -48,14 +48,14 @@ export const getPaginatedProductsWithImages=async({
         const totalPages=Math.ceil(totalCount/take);
 
 
-        return{
-            currentPage:page,
-            totalPages:totalPages,
-            products: products.map(product=>({
-                ...product,
-                images:product.ProductImage.map(image=> image.url)
-            }))
-        }
+        return {
+    currentPage: page,
+    totalPages: totalPages,
+    products: products.map((product: any) => ({
+        ...product,
+        images: (product.ProductImage || []).map((image: any) => image.url)
+    }))
+};
 
 
     }catch(error){
