@@ -8,7 +8,7 @@ datasource db {
 }
 
 enum Size {
-  XS
+  XS  
   S
   M
   L
@@ -18,10 +18,10 @@ enum Size {
 }
 
 enum Gender {
-  men
-  women
-  kid
-  unisex
+  MEN
+  WOMAN
+  KID
+  UNISEX
 }
 
 enum Role {
