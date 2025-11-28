@@ -19,7 +19,7 @@ enum Size {
 
 enum Gender {
   men
-  woman
+  women
   kid
   unisex
 }
