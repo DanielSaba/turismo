@@ -16,9 +16,8 @@
 
     "lint": "eslint",
 
-    "seed": "tsc -p src/seed/tsconfig.seed.json && node dist-seed/seed/seed-database.js",
+    "seed": "tsc -p src/seed/tsconfig.seed.json && node dist-seed/seed/seed-database.js"
 
-    "postinstall": "prisma generate"
 
   },
 
