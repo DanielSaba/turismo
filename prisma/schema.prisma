@@ -24,7 +24,7 @@ enum Gender {
   unisex
 }
 
-enum Role{
+enum Role {
   admin
   user
 }
