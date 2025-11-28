@@ -6,7 +6,7 @@ export default defineConfig({
   migrations: {
     path: "prisma/migrations",
   },
-  engine: "sdl",   // <--- CORREGIDO
+  engine: "js",   // <--- ESTA ES LA OPCIÓN CORRECTA PARA TU VERSIÓN
   datasource: {
     url: env("DATABASE_URL"),
   },
