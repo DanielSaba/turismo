@@ -18,10 +18,10 @@ enum Size {
 }
 
 enum Gender {
-  MEN
-  WOMAN
-  KID
-  UNISEX
+  men
+  woman
+  kid
+  unisex
 }
 
 enum Role {
